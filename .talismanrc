@@ -1,0 +1,17 @@
+{
+  "fileignore": [
+    "*.jpg",
+    "*.png",
+    "node_modules/"
+  ],
+  "filedenylist": [
+    "*.secret",
+    "passwords.txt"
+  ],
+  "regexdenylist": [
+    "password\\s*\\(\\s*['\"]{0,1}(.*)['\"]{0,1}\\s*\\)"
+  ],
+  "filepermission": "777",
+  "maxallowedadditions": 10,
+  "minwordlength": 10
+}
